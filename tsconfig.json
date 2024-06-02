@@ -3,6 +3,7 @@
     "target": "ESNext",
     "module": "CommonJS",
     "baseUrl": ".",
+    "typeRoots": ["./node_modules/@types", "./src/types"],
     "paths": {
       "@/*": ["src/*"]
     },
@@ -19,5 +20,5 @@
   },
   "extends": [],
   "exclude": ["node_modules"],
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*.ts", "src/types/express.d.ts"]
 }

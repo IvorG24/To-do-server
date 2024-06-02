@@ -3,6 +3,7 @@ import { z } from 'zod';
 export enum ResponseStatus {
   Success,
   Failed,
+  Error,
 }
 
 export class ServiceResponse<T = null> {
